@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="profile">
+        <img
+          src="./Profile Pic.jpg"
+          alt="Evans Acheampong"
+          data-testid="slackDisplayImage"
+        />
+        <h1 data-testid="slackUserName">Evans Acheampong</h1>
+        <p class="role">Frontend Developer Intern</p>
+      </div>
+    </header>
+    <main>
+      <section class="data">
+        <div class="data-item">
+          <h2>Current Day of the Week:</h2>
+          <p id="CurrentDay" data-testid="currentDayOfTheWeek"></p>
+        </div>
+        <div class="data-item">
+          <h2>Current UTC Time:</h2>
+          <p id="CurrentUTCtime" data-testid="currentUTCTime"></p>
+        </div>
+        <div class="data-item">
+          <h2>Track:</h2>
+          <p data-testid="myTrack">Frontend Development</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <div class="github-link" data-testid="githubURL">
+          <a
+            href="https://github.com/AWESOME04/frontend-task-showcase"
+            target="_blank"
+            >View on GitHub</a
+          >
+        </div>
+      </nav>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+/* style.css */
+
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+  background-color: #4220b2;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+}
+
+.profile img {
+  border-radius: 50%;
+  max-width: 200px;
+  border: 5px solid white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.role {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Main Content Styles */
+main {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.data-item {
+  flex-basis: calc(33.33% - 10px);
+  margin: 10px;
+  padding: 20px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #4220b2;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.github-link a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.github-link a:hover {
+  text-decoration: underline;
+}

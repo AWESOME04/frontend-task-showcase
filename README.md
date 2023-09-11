@@ -3,7 +3,7 @@ A front-end web page showcasing personal and real-time data elements with HTML, 
 
 # Frontend Task Showcase
 
-![Project Image](![front-end](https://github.com/AWESOME04/frontend-task-showcase/assets/102630199/32123064-61ab-41e0-882c-9f74b0bb0295) <!-- Replace with an image of your project, if available -->
+![Project Image](https://github.com/AWESOME04/frontend-task-showcase/assets/102630199/32123064-61ab-41e0-882c-9f74b0bb0295) 
 
 > A showcase of my frontend development skills with real-time data.
 
@@ -19,7 +19,6 @@ A front-end web page showcasing personal and real-time data elements with HTML, 
   - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -31,8 +30,7 @@ This repository showcases a simple web page that demonstrates my frontend develo
 
 ## Demo
 
-Check out the live demo [here](#) <!-- Add the URL to your live demo once it's hosted -->
-
+Check out the live demo [here](https://awesome04.github.io/frontend-task-showcase/) 
 ---
 
 ## Features

@@ -5,11 +5,13 @@ document.addEventListener("DOMContentLoaded", function () {
     let day = weekday[currentDate.getDay()];
     document.getElementById("CurrentDay").textContent = day;
 
-    // To get Current Time
+    // To get Current Time in UTC
     const CurrentUTCtime = new Date(currentDate);
     let hours = CurrentUTCtime.getUTCHours();
     const minutes = CurrentUTCtime.getUTCMinutes();
-    const Currenttime = `${hours}:${minutes < 10 ? "0" : ""}${minutes}`;
+    const seconds = CurrentUTCtime.getUTCSeconds();
+    const milliseconds = CurrentUTCtime.getUTCMilliseconds();
+    const Currenttime = `${hours}:${minutes < 10 ? "0" : ""}${minutes}:${seconds < 10 ? "0" : ""}${seconds}.${milliseconds}`;
 
     document.getElementById("CurrentUTCtime").textContent = Currenttime;
 });
